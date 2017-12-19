@@ -1,0 +1,20 @@
+{
+    "name": "ahmadrezaei/yii-adaccount",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","authclient","adaccount","oauth"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmad Rezaei",
+            "email": "parsarezaei53@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2-authclient": "~2.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "ahmadrezaei\\yii\\authclient\\": ""
+        }
+    }
+}
