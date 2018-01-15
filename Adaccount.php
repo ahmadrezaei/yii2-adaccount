@@ -9,15 +9,15 @@ class Adaccount extends OAuth2
     /**
      * @inheritdoc
      */
-    public $authUrl = 'http://adaccount.ir/oauth/authorize';
+    public $authUrl = 'https://www.adaccount.me/oauth/authorize';
     /**
      * @inheritdoc
      */
-    public $tokenUrl = 'http://adaccount.ir/oauth/token';
+    public $tokenUrl = 'https://www.adaccount.me/oauth/token';
     /**
      * @inheritdoc
      */
-    public $apiBaseUrl = 'http://adaccount.ir/api/v1';
+    public $apiBaseUrl = 'https://www.adaccount.me/api/v1';
 
     /**
      * @inheritdoc
